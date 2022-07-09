@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  font-size: 32px;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid rgb(83, 83, 83);
+  gap: 20px;
+}
+
+.item__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+  align-items: start;
+}
+  
+.item__name {
+  font-size: 24px;
+  color: black;
+}
+  
+.item__desription {
+  color: rgb(83, 83, 83);
+}
+  
+.item__dop {display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.error {
+  color: rgb(147 37 37);
+  background: #f7dcde;
+  font-weight: 600;
+}
+
+  
